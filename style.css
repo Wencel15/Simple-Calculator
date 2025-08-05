@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #0f2027 0%, #2c5364 100%);
+    min-height: 100vh;
+    font-family: 'Orbitron', 'Poppins', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(20, 30, 40, 0.95);
+    padding: 50px 40px;
+    color: #00fff7;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #00fff7, 0 0 10px #0ff, 0 0 80px #00fff7 inset;
+    border: 2px solid #00fff7;
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    font-family: 'Orbitron', 'Poppins', Arial, sans-serif;
+    margin-bottom: 10%;
+    letter-spacing: 3px;
+    font-size: 2.2rem;
+    color: #00fff7;
+    text-shadow: 0 0 10px #00fff7, 0 0 20px #0ff;
+}
+
+input[type="text"] {
+    height: 45px;
+    font-size: 26px;
+    background: #101820;
+    color: #00fff7;
+    border: 2px solid #00fff7;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #00fff7 inset;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #ff0080;
+    box-shadow: 0 0 20px #ff0080;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(90deg, #00fff7 0%, #ff0080 100%);
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Orbitron', 'Poppins', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #00fff7, 0 0 10px #ff0080;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff0080 0%, #00fff7 100%);
+    box-shadow: 0 0 30px #ff0080, 0 0 20px #00fff7;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    accent-color: #00fff7;
+    margin: 0 8px 0 0;
+}
+
+b {
+    font-size: 32px;
+    color: #ff0080;
+    text-shadow: 0 0 10px #ff0080, 0 0 20px #00fff7;
+}
+
+
